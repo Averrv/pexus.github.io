@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	font-family:'poppins', sans-serif;
+}
+body {
+	background-color:#f8f8f8;
+}
+a {
+	color: inherit;
+	text-decoration:none;
+}
+#bg-login {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.namalogin {
+	text-align: center;
+	
+}
+.namatambah {
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+.box-login {
+	width: 300px;
+	min-height: 200px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	padding:15px;
+	box-sizing:border-box;
+}
+.box-login h2 {
+	text-align:center;
+	margin-bottom:15px;
+}
+.input-control {
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	box-sizing:border-box;
+}
+.kolom {
+	width:50%;
+	padding:10px;
+	margin-bottom:15px;
+	box-sizing:border-box;
+}
+.btn {
+	padding:8px 15px;
+	background-color: #2b2b2b;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #585858;
+}
+header {
+	background-color: #2b2b2b;
+	color: #fff;
+}
+header h1 {
+	float:left;
+	padding:15px 0;
+}
+header ul {
+	float:right;
+}
+header ul li {
+	display:inline-block;
+}
+header ul li a {
+	padding:25px 0 25px 15px;
+	display: inline-block;
+	font-size: 18px;
+	color: #ffffff; /* Warna teks navbar */
+    font-weight: bold;
+}
+header ul li a:hover {
+	padding:25px 0 25px 15px;
+	display: inline-block;
+	font-size: 18px;
+	color: #afafaf; /* Warna teks navbar */
+    font-weight: bold;
+}
+footer {
+	padding:25px 0;
+}
+.container2 {
+	width: 95%;
+	columns: 5;
+	margin: 0 auto;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.container6 {
+	width: 95%;
+	margin: 0 auto;
+	
+}
+.coll {
+		width: 25%;
+		height: 230px;
+		
+		padding: 10px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+	
+}
+.container3 {
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container:after {
+	content:'';
+	display: block;
+	clear:both;
+}
+.section {
+	padding:25px 0;
+}
+
+.container8 {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.boxd {
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding:15px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	margin:10px 0 25px 0;
+    max-width: 70%;
+}
+.boxg {
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+	margin:10px 0 25px 0; 
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.colid {
+	width:auto;
+	height: auto;
+	
+	padding:5px;
+	margin: -5px;
+	margin-bottom: 9px;
+	border-radius: 15px;
+}
+.colid h3 {
+	font-size: 30px;
+}
+.colid h4 {
+	font-size: 13px;
+}
+.colid h2 {
+	font-size: 23px;
+	margin-bottom: -5px;
+}
+.colid p {
+	margin-top: -5px;
+}
+.cold {
+	flex: 0 0 45%;
+}
+.cold img {
+	width: 100%;
+	text-align: center;
+}
+.col-5 {
+	width:20%;
+	height:100px;
+	text-align: center;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+}
+.col-4 {
+	width:auto;
+	height: auto;
+	padding:5px;
+	margin: -5px;
+	margin-bottom: 9px;
+	border-radius: 15px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	
+	}
+.col-4:hover {
+	
+	transform: scale(1.1);
+	box-shadow: 3px 3px 3px #999;
+}
+.col-4 img {
+	border-radius: 15px;
+	width: 100%;
+}
+.col-4 .nama {
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 5px;
+}
+.col-4 .admin {
+	font-weight: bold;
+	color: #FC3F81;
+}
+.footer {
+	padding:25px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.footer p {
+	margin-bottom: 10px;
+}
+.footer small {
+	margin-top: 25px;
+	display: inline-block;
+}
+.col-2 {
+	width: 50%;
+	min-height: 200px;
+	padding:10px;
+	box-sizing: border-box;
+	float: left;
+}
+.col-2 img {
+	border:1px solid #f9f9f9;
+	padding:5px;
+	box-sizing: border-box;
+}
+.col-2 h3 {
+	margin-bottom: 10px;
+}
+.col-2 h4 {
+	color: #0098c7;
+}
+.col-2 p {
+	margin:15px 0;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+}
+.nav-item {
+	margin-right: 20px;
+	margin-left: 0px;
+  }
+  .nav-item:last-child {
+	margin-right: 0;
+  }
+  .photos {
+	text-align: center;
+  }
+  .nav-link {
+	color: #ffffff;
+	border-bottom: 4px solid transparent;
+	font-size: 1.2rem;
+  }
+  
+  .nav-link-1.active,
+  .nav-link-1:hover {
+	border-color: #9b9b9b;
+  }
+  
+  .nav-link-2.active,
+  .nav-link-2:hover {
+	border-color: #9b9b9b;
+  }
+  .tm-bg-gray {
+    background-color: #eeeeee;
+}
+/* Tambahkan CSS ini ke file style.css atau tambahkan langsung ke file header.php */
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+/* Footer Styling */
+.tm-footer {
+    background-color: #eeeeee; /* Warna latar belakang footer */
+    color: #2b2b2b; /* Warna teks footer */
+	padding: 50px;
+}
+
+.tm-footer-title {
+    color: #2b2b2b; /* Warna judul footer */
+	font-size: 20px;
+}
+
+.tm-footer p {
+    font-size: 14px; /* Ukuran font teks pada paragraf */
+    line-height: 1.6; /* Jarak baris pada paragraf */
+}
+
+.tm-footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.tm-footer-links li {
+    margin-bottom: 10px;
+}
+
+.tm-footer-links a {
+    color: #ecf0f1; /* Warna tautan footer */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.tm-footer-links a:hover {
+    color: #3498db; /* Warna tautan footer saat dihover */
+}
+
+/* Additional Styling */
+.container-fluid {
+    max-width: 1200px; /* Lebar maksimum container */
+}
+
+/* Copyright Text Styling */
+.row > div:nth-child(2) {
+    font-size: 12px; /* Ukuran font untuk teks hak cipta */
+}
+
+/* Designed by Text Styling */
+.row > div:nth-child(3) {
+    font-size: 12px; /* Ukuran font untuk teks "Designed by" */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .tm-footer {
+        text-align: center; /* Pusatkan teks pada layar kecil */
+    }
+    .tm-footer-links {
+        text-align: center; /* Pusatkan tautan pada layar kecil */
+    }
+    .tm-footer-links li {
+        display: inline-block; /* Atur tautan dalam satu baris pada layar kecil */
+        margin-right: 15px; /* Beri jarak antara tautan */
+    }
+}
+
+.container1 {
+    max-width: 450px; /* Lebar maksimum container */
+    margin: 0 auto; /* Posisikan container di tengah halaman */
+}
+
+.section {
+    margin-top: 20px; /* Beri jarak antara header dan konten */
+}
+.boxl {
+    background-color: #fff; /* Warna latar belakang form */
+    padding: 23px; /* Padding pada form */
+    border-radius: 8px; /* Radius sudut form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada form */
+}
+.container4 {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.boxt {
+    background-color: #fff; /* Warna latar belakang form */
+    padding: 23px; /* Padding pada form */
+    border-radius: 8px; /* Radius sudut form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada form */
+}
+.btn2 {
+    background-color: #2b2b2b; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 13px 30px; /* Padding pada tombol */
+    border: none; /* Hapus border tombol */
+    border-radius: 30px; /* Radius sudut tombol */
+    cursor: pointer; /* Pointer ketika dihover */
+}
+.btn2:hover {
+	background-color: #585858;
+}
+.container5 {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.boxp {
+    background-color: #fff; /* Warna latar belakang form */
+    padding: 23px; /* Padding pada form */
+    border-radius: 8px; /* Radius sudut form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada form */
+}
+.btn3 {
+    background-color: #2b2b2b; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 13px 30px; /* Padding pada tombol */
+    border: none; /* Hapus border tombol */
+    border-radius: 30px; /* Radius sudut tombol */
+    cursor: pointer; /* Pointer ketika dihover */
+}
+.btn3:hover {
+	background-color: #585858;
+}
+.btn4 {
+    background-color: #2b2b2b; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 14px 30px; /* Padding pada tombol */
+    border: none; /* Hapus border tombol */
+    border-radius: 25px; /* Radius sudut tombol */
+    cursor: pointer; /* Pointer ketika dihover */
+}
+.btn4:hover {
+	background-color: #585858;
+}
+
+.kolom {
+    width: 400px; /* Lebar kolom 100% */
+    padding: 10px; /* Padding pada kolom */
+    margin-bottom: 15px; /* Jarak antar kolom */
+    box-sizing: border-box; /* Box-sizing untuk mencegah padding mempengaruhi lebar */
+	
+}
+.textlogin {
+	margin-bottom: 5px;
+}
+.btnl {
+    background-color: #2b2b2b; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 13px 30px; /* Padding pada tombol */
+    border: none; /* Hapus border tombol */
+    border-radius: 30px; /* Radius sudut tombol */
+    cursor: pointer; /* Pointer ketika dihover */
+}
+.btn1:hover {
+	background-color: #585858;
+}
+/* Sentuh responsif untuk tata letak kolom pada perangkat seluler */
+@media (max-width: 768px) {
+    .kolom {
+        width: 100%;
+    }
+}
+
+
+
+  
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+		}
+	.col-5 {
+		width:50%;
+		margin-bottom: 10px;
+	}
+	.col-4 {
+		width:50%;
+		height: 300px;
+	}
+	.col-2 {
+		width:100%;
+	}
+	
+}
